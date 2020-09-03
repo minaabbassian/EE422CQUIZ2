@@ -29,17 +29,17 @@ public class SelectionSortTests {
 	
 	@Test
 	public void test2() {
-		int[] x2 = {0, 1, 2, 3};
+		int[] x2 = {0, 1, 2, 3, 4, 5};
 	    SelectionSort.sort(x2);
-	    int[] expected2 = {0, 1, 2, 3};
+	    int[] expected2 = {0, 1, 2, 3, 4, 5};
 	    assertArrayEquals(expected2, x2);
 	}
 
 	@Test
 	public void test3() {
-		int[] x3 = {5, 6, 3, 4, 2, 1};
+		int[] x3 = {12, 5, 3, 7, 2, 1};
 	    SelectionSort.sort(x3);
-	    int[] expected3 = {1, 2, 3, 4, 5, 6};
+	    int[] expected3 = {1, 2, 3, 5, 7, 12};
 	    assertArrayEquals(expected3, x3);
 	}
 	
