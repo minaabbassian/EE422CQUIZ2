@@ -24,11 +24,15 @@ public class SelectionSort {
 			
 			// Check all other values in array to find smallest value
 			for (int j = i + 1; j < x.length; j++) {
-				if (x[j] < x[min]) { min = j; }
+				if (x[j] < x[min]) { 
+					min = j; 
+					}
 			}
 			
 			// Swap smallest value to its correct location
-			if (x[i] != x[min]) { swap(x, i, min); }
+			if (x[i] != x[min]) { 
+				swap(x, i, min); 
+			}
 		}
 	}
 	
